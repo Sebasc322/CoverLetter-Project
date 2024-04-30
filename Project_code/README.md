@@ -1,4 +1,7 @@
 # Project Code
 
 ## Resume Reviewer
-![Home](https://github.com/Sebasc322/talk-to-files/blob/main/srcs/Home.jpg)
+![Resume](https://github.com/Sebasc322/CoverLetter-Project/blob/main/Project_code/Resume.jpg)
+## Cover Letter
+![Resume](https://github.com/Sebasc322/CoverLetter-Project/blob/main/Project_code/cover1.jpg)
+
