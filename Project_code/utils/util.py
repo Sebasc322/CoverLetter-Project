@@ -15,14 +15,10 @@ import en_core_web_sm
 import pandas as pd
 
 
-def parse_cv(path):
+def parse_pdf(path):
     loader = PdfReader(path)
     text = loader.pages[0].extract_text()
     return text
-
-def get_agent(temperature=0.9):
-    agent = ChatOpenAI(model="gpt-4-turbo", temperature=temperature)
-    return agent
 
 def generate_cover_letter(resume_text, job_listing_text, prompt_template, openai_api_key):
     agent = ChatOpenAI(model="gpt-4-turbo", temperature=0.9, openai_api_key=openai_api_key)
