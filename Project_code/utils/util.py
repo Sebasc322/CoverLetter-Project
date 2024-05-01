@@ -53,11 +53,11 @@ def normalize_text(text):
 
 def vectorize_text(text):
     # Vectorize the text using TF-IDF
-    tfidf = joblib.load('/Users/sebas/Documents/UMBC/Spring 2024/Data_606/Project/utils/TfidVectr.pkl')
+    tfidf = joblib.load('/Project_code/utils/TfidVectr.pkl')
     vectorized_text = tfidf.transform(text)
     return vectorized_text
 
 def load_model():
     # Load the pre-trained model
-    model = joblib.load('/Users/sebas/Documents/UMBC/Spring 2024/Data_606/Project/utils/job_classifier_model.pkl')
+    model = joblib.load('/Project_code/utils/job_classifier_model.pkl')
     return model
