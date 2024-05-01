@@ -10,4 +10,4 @@ st.write("""Have you ever wondered if a job posting you found at Linkedin or any
 st.write("""Our tool not only will help you create a perfect cover letter based on your Resume and the job posting, but also will help you verify if the job posting is real or fake.
          """)
 
-st.image('cover.jpg', caption='Cover Letter',use_column_width=True)
+st.image('/mount/src/coverletter-project/Project_code/cover.jpg', caption='Cover Letter',use_column_width=True)
