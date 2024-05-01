@@ -6,4 +6,5 @@ pip-chill
 pypdf2
 pyperclip
 scikit-learn
-streamlit-pandas-profiling
+pandas
+streamlit
