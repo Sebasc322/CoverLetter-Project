@@ -54,7 +54,7 @@ with tab1:
         resume_one = st.file_uploader("Upload your Resume", type=['pdf'], key="very_and_cover")
         resume_text = None
         if resume_one is not None:
-            resume_text = parse_cv(resume_one)
+            resume_text = parse_pdf(resume_one)
         if resume_one is not None:
             st.write('You have uploaded a PDF file.')
             st.write("The following button will generate a cover letter for you based on the job posting and your Resume")
@@ -80,7 +80,7 @@ with tab2:
     resume_2 = st.file_uploader("Upload your Resume", type=['pdf'], key="cover")
     resume_text = None
     if resume_2 is not None:
-        resume_text = parse_cv(resume_2)
+        resume_text = parse_pdf(resume_2)
     if resume_2 is not None:
         st.write('You have uploaded a PDF file.')
         st.write("The following button will generate a cover letter for you based on the job posting and your Resume")
