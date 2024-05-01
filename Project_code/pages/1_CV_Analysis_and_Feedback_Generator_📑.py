@@ -30,7 +30,7 @@ job_listing_text = f"Job Title: {job_title}\n\nJob Description:\n{job_desc}\n\nL
 resume_one = st.file_uploader("Upload your Resume", type=['pdf'], key="resume")
 resume_text = None
 if resume_one is not None:
-    resume_text = parse_cv(resume_one)
+    resume_text = parse_pdf(resume_one)
     if resume_one is not None:
         st.write('You have uploaded a PDF file.')
         st.write("The following button will check your resume against the job description.")
