@@ -1,7 +1,6 @@
 import streamlit as st 
 from utils.util import *
 from utils.prompts import *
-import pyperclip
 from langchain_openai import OpenAIEmbeddings, ChatOpenAI
 
 
